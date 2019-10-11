@@ -101,30 +101,6 @@ a {
     text-align: center;
 }
 
-.section-brayton-academy .content .c-form .form .form-header button {
-    background: #5CDB94;
-}
-
-.section-brayton-academy .content .c-form .form .fields label {
-    color: #5CDB94;
-}
-
-.section-brayton-academy .content .c-form .form .form-header h3:before {
-   display: none;
-}
-
-.section-brayton-academy .content .c-form .form .fields select {
-    color: #02192F;
-    border: none;
-    border-bottom: 1px solid #5CDB94;
-    box-shadow: none;
-    margin-bottom: 0;
-    margin-top: 40px;
-}
-
-.section-brayton-academy .content .c-form .form .fields select:focus {
-    outline: none;
-}
 
 .h3-contact-form{
     margin-left: 10px;
@@ -135,10 +111,6 @@ a {
 
 .to-contents .c-card {
     width: 100%;
-}
-
-.section-brayton-academy .content .c-form .form .form-header button:hover {
-    background: #5CDB94;
 }
 
 a:focus, a:hover {

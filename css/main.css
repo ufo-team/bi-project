@@ -22,7 +22,6 @@ http://themeforest.net/licenses
 		3.5 Gallery grid list / .section .gallery-slides .c-gallery
 		3.6 Contact page section and forms /
 		3.7 Customers page section lists
-		3.8 Brayton academy page section / .section-brayton-academy
 	4. Item detail slides / item.html : #itemdetail-page , .section.page-slides .slide
 	5. Footer / .site-footer
 	6. Responsiveness
@@ -2648,112 +2647,7 @@ strong,
   .section-contact .content .c-right {
     float: right;
     width: 34%; }
-  .section-brayton-academy .content .c-form .card-wrapper:after {
-    visibility: hidden; }
-  .section-brayton-academy .content .c-form .c-content {
-    padding: 32px; }
-  .section-brayton-academy .content .c-form .form .form-header h3 {
-    float: left;
-    width: 50%;
-    padding-top: 8px;
-    position: relative; }
-    .section-brayton-academy .content .c-form .form .form-header h3:before {
-      position: relative;
-      height: 16px;
-      width: 16px;
-      content: "";
-      background: #4394e5;
-      border-radius: 16px;
-      display: inline-block;
-      margin-right: 8px;
-      margin-top: -4px;
-      vertical-align: middle; }
-    .section-brayton-academy .content .c-form .form .form-header h3:after {
-      display: none; }
-  .section-brayton-academy .content .c-form .form .form-header .btns {
-    float: right; }
-  .section-brayton-academy .content .c-form .form .form-header button {
-    float: right;
-    padding-top: 2px;
-    padding-right: 14px;
-    padding-left: 16px;
-    margin: 0;
-    height: 55px;
-    width: 100px;
-    font-size: 14px;
-    font-family: "Roboto Condensed", "League Gothic";
-    letter-spacing: 0.2em;
-    color: #ffffff;
-    background: #05396B;
-    display: table;
-    vertical-align: middle;
-    text-transform: uppercase;
-    -webkit-transition: 0.1s;
-            transition: 0.1s; }
-    .section-brayton-academy .content .c-form .form .form-header button:hover {
-      background: #05396B; }
-  .section-brayton-academy .content .c-form .form .fields {
-    position: relative; }
-    .section-brayton-academy .content .c-form .form .fields label {
-      position: absolute;
-      top: 8px;
-      left: 0;
-      width: 64px;
-      font-family: "Roboto Condensed", "League Gothic";
-      font-size: 14px;
-      display: block;
-      float: left;
-      color: #4394e5; }
-    .section-brayton-academy .content .c-form .form .fields label.error {
-      position: absolute;
-      font-family: "Roboto", "Helvetica", sans-serif;
-      color: #ce2c52;
-      font-size: 12px;
-      top: auto;
-      bottom: 8px;
-      right: 0;
-      text-align: right;
-      padding-right: 8px;
-      width: auto; }
-    .section-brayton-academy .content .c-form .form .fields input {
-      float: right;
-      padding-left: 64px;
-      font-family: "Roboto", "Helvetica", sans-serif;
-      font-size: 14px;
-      color: #1d1d1d;
-      border: none;
-      border-bottom: 1px solid #4394e5;
-      box-shadow: none;
-      margin-bottom: 0; }
-    .section-brayton-academy .content .c-form .form .fields select {
-    float: right;
-    font-family: "Roboto", "Helvetica", sans-serif;
-    font-size: 14px;
-    color: #1d1d1d;
-    border: none;
-    border-bottom: 1px solid #4394e5;
-    box-shadow: none;
-    margin-bottom: 0;
-    margin-top: 40px;}
-    .section-brayton-academy .content .c-form .form .fields textarea {
-      margin-top: 40px;
-      font-size: 14px;
-      font-family: "Roboto", "Helvetica", sans-serif;
-      color: #1d1d1d;
-      border: none;
-      background: #eaeaea;
-      box-shadow: none;
-      margin-bottom: 0;
-      height: 100px;
-      max-height: 150px; }
-    .section-brayton-academy .content .c-form .form .fields p {
-      font-family: "Roboto Condensed", "League Gothic";
-      font-size: 14px;
-      color: #7a7a7a;
-      position: absolute;
-      left: 0;
-      bottom: -22px;
-      margin: 0; }
+
 .section-contact .contact-footer {
   padding: 0 96px;
   padding-top: 16px;
@@ -2880,42 +2774,7 @@ strong,
   padding-top:45px;
 }
 
-/*3.8 Brayton academy page section / .section-brayton-academy*/
 
-.section-brayton-academy .c-card {
-  width: 40%;
-}
-
-@media screen and (max-width: 620px) {
-  .section-brayton-academy .c-card {
-    width: 100%;
-  }
-}
-.section-brayton-academy .card-wrapper {
-  padding: 5px !important;
-    height: 100%;
-}
-.card-wrapper:after {
-  display: none !important;
-}
-.section-brayton-academy .c-card .c-illustr {
-  height: 100px;
-}
-.section-brayton-academy .c-card .img-wrapper {
-  height: 100% !important;
-  display: flex !important;
-  justify-content: center;
-}
-.section-brayton-academy .c-card .img-wrapper>img{
-  object-fit: contain;
-}
-.section-brayton-academy .c-content{
-  padding-top: 12px;
-}
-
-.section-brayton-academy .left-card {
-  margin: 0 50px 10px 0;
-}
 .content-detail {
   padding-left: 10px;
   display: flex;
@@ -2924,23 +2783,6 @@ strong,
 }
 .content-detail>p {
   margin-bottom: 0;
-}
-
-.section-brayton-academy .cards {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.section-brayton-academy .send-btn {
-  background-color: #4394e5;
-  border: none;
-  border-radius: 20px;
-  padding: 3px 10px;
-  margin-bottom: 2px;
-}
-
-.section-brayton-academy .send-btn:focus {
-  outline: none;
 }
 
 /* 4. Item detail slides / item.html : #itemdetail-page , .section.page-slides .slide */

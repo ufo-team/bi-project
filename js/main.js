@@ -424,12 +424,7 @@ text_message_elem.oninput = function(e) {
 };
 */
 
-//send contact email
-function send() {
-    document.getElementById('form').action = "mailto:contact@braytonglobal.com?subject="
-        + document.getElementById('subject').value
-        + "&body=" + document.getElementById("mail-body").value;
-}
+
 
 //display modal
 function addExpand(name) {
@@ -454,13 +449,6 @@ function removeExpand(name) {
     $.fn.fullpage.setAllowScrolling(true);
 }
 
-
-//send contact email
-function send() {
-    document.getElementById('form').action = "mailto:contact@braytonglobal.com?subject="
-        + document.getElementById('subject').value
-        + "&body=" + document.getElementById("mail-body").value;
-}
 
 //show column content
 function showAndHide(id) {
