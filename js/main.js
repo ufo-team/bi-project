@@ -492,7 +492,6 @@ function changeFooterBg() {
         document.querySelector('.site-footer').style.backgroundColor = '#19242F';
     }
 }
-
 changeFooterBg();
 window.onhashchange = function () {
     changeFooterBg();

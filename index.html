@@ -43,6 +43,7 @@
     <!--<link rel="stylesheet" href="./css/style-color4.css">-->
 
     <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+
 </head>
 
 <body id="menu" class="alt-bg dark-section">
@@ -92,6 +93,12 @@
                 <span class="title">Home</span>
             </a>
         </li>
+        <li data-menuanchor="description">
+            <a href="#description">
+                <i class="icon lnr lnr-file-empty"></i>
+                <span class="title">Description</span>
+            </a>
+        </li>
         <li data-menuanchor="numbers">
             <a href="#numbers">
                 <i class="icon lnr lnr-dice"></i>
@@ -117,47 +124,9 @@
 
 <!-- BEGIN OF page cover -->
 <div class="page-cover">
-    <!-- Cover Background -->
-    <div class="cover-bg pos-abs full-size bg-img" data-image-src="./img/bg/bg-1.jpg"></div>
-
-    <!-- BEGIN OF Slideshow Background -->
-    <!--<div class="cover-bg pos-abs full-size slide-show">
-        <i class='img' data-src='./img/bg/bg-1.jpg'></i>
-        <i class='img' data-src='./img/bg/bg-2.jpg'></i>
-        <i class='img' data-src='./img/bg/bg-3.jpg'></i>
-        <i class='img' data-src='./img/bg/bg-4.jpg'></i>
-        <i class='img' data-src='./img/bg/bg-5.jpg'></i>
-        <i class='img' data-src='./img/bg/bg-6.jpg'></i>
-    </div>-->
-    <!-- END OF Slideshow Background -->
-
-    <!--BEGIN OF Static video bg  - uncomment below to use Video as Background-->
-    <!--<div id="container" class="video-container show-for-medium-up">
-            <video autoplay="autoplay" loop="loop" autobuffer="autobuffer" muted="muted"
-                   width="640" height="360">
-                <source src="./vid/loop-bg.mp4" type="video/mp4">
-            </video>
-        </div>-->
-    <!--END OF Static video bg-->
-
-    <!--BEGIN OF Youtube video bg  - uncomment/comment below to use/or not Youtube Video as Background-->
-    <!--<div class='youtube-container video-container show-for-medium-up'>
-            <iframe frameborder="0"
-            src="https://youtube.com/embed/wqeuYB7KMhY?autoplay=1&controls=0&showinfo=0&autohide=1">
-            </iframe>
-        </div>-->
-    <!--END OF Youtube video bg-->
 
     <!-- Solid color as background -->
-    <div class="cover-bg pos-abs full-size bg-color" data-bgcolor="#02192F"></div>
-
-    <!-- Particles as background -->
-    <!--<div  id="particles-js" class="cover-bg pos-abs full-size bg-color" data-bgcolor="rgba(37, 38, 42, 0.81)"></div>-->
-
-    <!-- Solid color as filter -->
-    <!--<div class="cover-bg-mask pos-abs full-size bg-color" data-bgcolor="rgba(33, 40, 82, 0.6)"></div>-->
-    <!--<div class="cover-bg-mask pos-abs full-size bg-color" data-bgcolor="#222834"></div>-->
-    <!--<div class="cover-bg-mask pos-abs full-size bg-color" data-bgcolor="rgba(0, 0, 0, 0.56)"></div>-->
+    <div class="cover-bg pos-abs full-size bg-color" data-bgcolor="#000000"></div>
 
 </div>
 <!--END OF page cover -->
@@ -204,6 +173,33 @@
     </div>
     <!-- End of home section -->
 
+    <!-- Begin of description section -->
+    <div class="section section-candidates" data-section="candidates">
+        <section class="content clearfix">
+
+            <div class="c-left">
+                <div class="c-wrapper">
+                    <header class="c-header">
+                        <h2>UFOs are real. But can we assume they're Alien Spaceships?</h2>
+                    </header>
+                </div>
+                <div class="c-header candidates-content">
+                    <p>There are thousands and thousands of reported UFO sightings in the United States since 1900.
+                        Often Aliens is the default explanation for those weird stuff in the sky. We would love to know:
+                        Are we actually alone? But maybe we shouldn't jump to this E.T conclusion so quickly.
+                        We are right to be sceptic because if aliens where here they are very shy and probably the best houseguest ever.
+                        What could be a simple explanation? Planes, manifestations of drugs, alcohol, mental illness,
+                        military bases exercices, new year fireworks ? They are multiple explanations possible for those manifestations.
+                        By this website we are trying to unravel some of this mystery by looking through 2012 to 2014 UFO sightings.
+                    </p>
+                    <img src="img/ufo-gif.gif"/>
+                </div>
+
+            </div>
+        </section>
+    </div>
+    <!-- End of description section -->
+
     <!-- Begin of number section -->
     <div class="section section-numbers" data-section="numbers">
         <section class="content clearfix">
@@ -213,9 +209,10 @@
                 </header>
             </div>
             <div class="iframe">
-                <iframe width="1140" height="541.25"
-                        src="https://app.powerbi.com/reportEmbed?reportId=b009874f-2fd7-4bfb-a5a9-2049d60702b5&autoAuth=true&ctid=654b4463-2e7e-4dee-b5b1-c828bfd6195e&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLW5vcnRoLWV1cm9wZS1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldCJ9&pageName=ReportSection&navContentPaneEnabled=false"
-                        frameborder="0" allowFullScreen="true"></iframe>
+                <iframe id="frame1" width="1140" height="541.25"
+                        src="https://app.powerbi.com/reportEmbed?reportId=b009874f-2fd7-4bfb-a5a9-2049d60702b5&autoAuth=true&ctid=654b4463-2e7e-4dee-b5b1-c828bfd6195e&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLW5vcnRoLWV1cm9wZS1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldCJ9&pageName=ReportSection&navContentPaneEnabled=false&filterPaneEnabled=false"
+                        frameborder="0" allowFullScreen="true"
+                ></iframe>
             </div>
         </section>
     </div>
@@ -229,8 +226,9 @@
                 </header>
             </div>
             <div class="iframe">
-                <iframe width="1140" height="541.25"
-                        src="https://app.powerbi.com/reportEmbed?reportId=b009874f-2fd7-4bfb-a5a9-2049d60702b5&autoAuth=true&ctid=654b4463-2e7e-4dee-b5b1-c828bfd6195e&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLW5vcnRoLWV1cm9wZS1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldCJ9&pageName=ReportSection563b4340305ea965e329&navContentPaneEnabled=false"
+                <iframe id="frame2"
+                        width="1140" height="541.25"
+                        src="https://app.powerbi.com/reportEmbed?reportId=b009874f-2fd7-4bfb-a5a9-2049d60702b5&autoAuth=true&ctid=654b4463-2e7e-4dee-b5b1-c828bfd6195e&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLW5vcnRoLWV1cm9wZS1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldCJ9&pageName=ReportSection563b4340305ea965e329&navContentPaneEnabled=false&filterPaneEnabled=false"
                         frameborder="0" allowFullScreen="true"></iframe>
             </div>
         </section>
@@ -245,8 +243,9 @@
                 </header>
             </div>
             <div class="iframe">
-                <iframe width="1140" height="541.25"
-                        src="https://app.powerbi.com/reportEmbed?reportId=b009874f-2fd7-4bfb-a5a9-2049d60702b5&autoAuth=true&ctid=654b4463-2e7e-4dee-b5b1-c828bfd6195e&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLW5vcnRoLWV1cm9wZS1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldCJ9&pageName=ReportSectionb681a431a807409964a7&navContentPaneEnabled=false"
+                <iframe id="frame3"
+                        width="1140" height="541.25"
+                        src="https://app.powerbi.com/reportEmbed?reportId=b009874f-2fd7-4bfb-a5a9-2049d60702b5&autoAuth=true&ctid=654b4463-2e7e-4dee-b5b1-c828bfd6195e&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLW5vcnRoLWV1cm9wZS1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldCJ9&pageName=ReportSectionb681a431a807409964a7&navContentPaneEnabled=false&filterPaneEnabled=false"
                         frameborder="0" allowFullScreen="true"></iframe>
             </div>
         </section>
@@ -263,26 +262,11 @@
 
 <!-- scripts -->
 <!-- All Javascript plugins goes here -->
-<!--		<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>-->
 <script src="js/vendor/jquery-1.11.2.min.js"></script>
 <!-- All vendor scripts -->
 <script src="js/vendor/jquery.slimscroll.min.js"></script>
 <script src="js/vendor/all.js"></script>
 <script src="js/particlejs/particles.min.js"></script>
-
-<!-- Uncomment below to enable particles scripts -->
-<!--<script src="./js/particlejs/particles-init.js"></script>-->
-<!--<script src="./js/particlejs/particles-init-snow.js"></script>-->
-
-<!-- Detailed vendor scripts -->
-<!--<script src="./js/vendor/jquery.fullPage.min.js"></script>
-<script src="./js/vendor/jquery.slimscroll.min.js"></script>
-<script src="./js/vendor/jquery.knob.min.js"></script>
-<script src="./js/vegas/vegas.min.js"></script>
-<script src="./js/vendor/jquery.maximage.js"></script>
-<script src="./js/vendor/okvideo.min.js"></script>
-<script src="./js/owl-carousel/owl.carousel.js"></script>
-<script src="./js/swiper/js/swiper.js"></script>-->
 
 <!-- Countdown script -->
 <script src="js/jquery.downCount.js"></script>
@@ -293,18 +277,7 @@
 <!-- Javascript main files -->
 <script src="js/main.js"></script>
 
-
-<!-- Google Analytics: Uncomment and change UA-XXXXX-X to be your site"s ID. -->
-<!--<script>
-    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-    e.src="//www.google-analytics.com/analytics.js";
-    r.parentNode.insertBefore(e,r)}(window,document,"script","ga"));
-    ga("create","UA-XXXXX-X");ga("send","pageview");
-</script>-->
 </body>
-
 
 <!-- Mirrored from demo.highhay.com/emotion/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Nov 2018 10:31:25 GMT -->
 
