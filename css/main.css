@@ -423,9 +423,9 @@ strong,
   z-index: 2;
   background: #ffffff;
   height: 200%;
-  padding: 40px;
-  padding-top: 350px;
-  width: 150px;
+  padding: 45px;
+  padding-top: 270px;
+  width: 170px;
   padding-right: 0;
   -webkit-transform: rotate(45deg) translateY(-300px);
       -ms-transform: rotate(45deg) translateY(-300px);
@@ -437,7 +437,7 @@ strong,
           transition: 0.3s; }
   .page-menu li {
     position: relative;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     -webkit-transform-origin: top left;
         -ms-transform-origin: top left;
             transform-origin: top left;
@@ -490,7 +490,7 @@ strong,
   .page-menu.menu-visible {
     visibility: visible;
     opacity: 1;
-    left: 236px;
+    left: 300px;
     -webkit-transform: rotate(45deg) translateY(-300px);
         -ms-transform: rotate(45deg) translateY(-300px);
             transform: rotate(45deg) translateY(-300px)
@@ -736,7 +736,7 @@ strong,
 
 .section .content {
   padding: 0 96px;
-  padding-top: 72px;
+  padding-top: 50px;
   padding-bottom: 72px;
   position: relative;
   max-width: 1200px;
@@ -745,7 +745,8 @@ strong,
   /* main wrapper*/
   /* card style item */ }
   .section .content .c-header {
-    margin-bottom: 32px; }
+    /*margin-bottom: 32px;*/
+  }
     .section .content .c-header h2 {
       font-size: 36px;
       font-weight: bold;
@@ -2770,8 +2771,9 @@ strong,
   margin-bottom: 5px !important;
   padding: 0 !important;
 }
-.customer-description {
+.about-description {
   padding-top:45px;
+  padding-bottom:10px;
 }
 
 

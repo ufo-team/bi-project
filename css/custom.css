@@ -541,3 +541,7 @@ a:focus, a:hover {
     height: 75px;
     bottom: 0;
 }
+
+.little-text {
+    font-size: 10px !important;
+}
